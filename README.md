@@ -12,3 +12,4 @@
 ### ~~WEB工作方式~~
 ### [Go搭建一个WEB服务器](Go搭建一个WEB服务器/README.md)
 ### [Go如何使得Web工作](Go如何使得Web工作/README.md)
+### [Go的http包详解](Go的http包详解/README.md)
