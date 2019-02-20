@@ -55,7 +55,7 @@ if m, _ := regexp.MatchString(`^(1[3|4|5|8][0-9]\d{4,8})$`, r.Form.Get("mobile")
 ```
 ## 下拉菜单
 ### 如果我们想要判断表单里<select>元素生成的下拉菜单中是否有被选中的项目。
-```html
+```
 <select>
 <option value="apple"> apple</option>
 <option value="pear"> pear</option>
@@ -74,7 +74,7 @@ return false
 ```
 ## 单选按钮
 ### 如果我们想要判断radio按钮是否有一个被选中了。
-```html
+```
 <input type="radio" name="gender" value="1">男
 <input type="radio" name="gender" value="1">女
 ```
@@ -89,7 +89,7 @@ for _, v := range slice {
 return false
 ```
 ## 复选框
-```html
+```
 <input type="checkbox" name="interest" value="football">足球
 <input type="checkbox" name="interest" value="basketball">篮球
 <input type="checkbox" name="interest" value="tennis">网球
